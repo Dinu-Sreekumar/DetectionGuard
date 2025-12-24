@@ -1,0 +1,11 @@
+Total Samples: 2520751
+Number of Features: 52
+Class Distribution:
+Attack Type
+Normal Traffic    2095057
+DoS                193745
+DDoS               128014
+Port Scanning       90694
+Brute Force          9150
+Web Attacks          2143
+Bots                 1948
