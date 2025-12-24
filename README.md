@@ -60,6 +60,25 @@ data/
 └── cicids2017_cleaned.csv
 ```
 
+### Dataset Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Samples** | 2,520,751 |
+| **Number of Features** | 52 |
+
+**Class Distribution:**
+
+| Attack Type | Samples |
+|-------------|---------|
+| Normal Traffic | 2,095,057 |
+| DoS | 193,745 |
+| DDoS | 128,014 |
+| Port Scanning | 90,694 |
+| Brute Force | 9,150 |
+| Web Attacks | 2,143 |
+| Bots | 1,948 |
+
 ## Usage
 
 ### Run the GUI Application
@@ -96,6 +115,10 @@ python the_intruder.py
 This project is part of research on federated learning-based intrusion detection systems. See the `research_paper/` directory for:
 - Full research paper (PDF)
 - Supplementary materials with detailed methodology
+
+### Performance Comparison
+
+![Model Accuracy Comparison](research_outputs/research_comparison_chart.png)
 
 ## Acknowledgments
 
